@@ -2,7 +2,7 @@
     import Title from "$lib/title.svelte"; 
 
 </script>
-<Title title="Ninja Gaming Reviews"/>
+
 <div class="about">
     <h2>About Us</h2>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit doloribus maxime officiis ratione fugiat esse sapiente harum blanditiis quod voluptas, recusandae error ad nisi omnis repudiandae aliquid saepe mollitia voluptates cupiditate vel. Esse pariatur deserunt voluptatibus, ipsa soluta culpa cum quaerat placeat porro aperiam nostrum in commodi. Totam unde quae ex omnis reprehenderit, cupiditate, quas dignissimos, error harum sed sapiente.</p>
