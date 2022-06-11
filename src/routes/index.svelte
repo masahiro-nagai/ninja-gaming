@@ -1,5 +1,4 @@
 <script>
-    import Title from "$lib/title.svelte"; 
     let title = "Welcome";
 
     // const updateTitle = () =>{

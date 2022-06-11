@@ -1,20 +1,20 @@
 <script context="module">
-    export async function load({load}){
-        const res = await fetch('https://jsonplaceholder.typicode.com/posts');
-        const guides = await res.json();
-
-        if(res.ok){
-            return{
-                props:{
-                    guides
-                }
-            }
+   export async function load({ fetch }) {
+    const res = await fetch('https://jsonplaceholder.typicode.com/posts')
+    const guides = await res.json()
+    console.log(guides)
+    if (res.ok) {
+      return {
+        props: {
+          guides
         }
-        return{
-            status: res.status,
-            error: new Error('Could not fetch the guides')
-        }
+      }
     }
+    return {
+      status: res.status,
+      error: new Error('Could not fetch the guides')
+    }
+  } 
 </script>
 <script>
     export let guides;
@@ -23,7 +23,7 @@
     <ul>
         {#each guides as guide}
             <li>
-                <a href="/">{guide.title}</a>
+                <a href={`/guides/${guide.id}`}>{guide.title}</a>
             </li>
         {/each}
     </ul>
