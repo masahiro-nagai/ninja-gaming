@@ -2,7 +2,7 @@
     export let title = "Ninja Gaming";
 </script>
 <div class="title">
-    <img src="/svelte_logo.png" alt="Svelte_Logo" width="20%" >
+    <img src="/SVGLogo.svg" alt="Svelte_Logo" width="20%" >
     <h1>{title}</h1>
 </div>
 

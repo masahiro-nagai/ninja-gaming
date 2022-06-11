@@ -16,15 +16,15 @@
 </footer>
 
 <style>
-    header{
-        display: flex;
-        margin: 20px auto;
+    header {
+      display: flex;
+      justify-content: center;
     }
-    main{
-        max-width: 960px;
-        margin: 20px auto;
+    main {
+      max-width: 960px;
+      margin: 20px auto;
     }
-    footer{
-        text-align: center;
+    footer {
+      text-align: center;
     }
-</style>
+  </style>
