@@ -9,8 +9,12 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "next",
+<<<<<<< HEAD
 		"@sveltejs/adapter-node": "^1.0.0-next.78",
 		"@sveltejs/kit": "1.0.0-next.198",
+=======
+		"@sveltejs/kit": "1.0.0-next.291",
+>>>>>>> f38ae05c40876e0452ba272a6a14a391e36640a5
 		"svelte": "^3.44.0"
 	},
 	"type": "module"
